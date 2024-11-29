@@ -1,0 +1,11 @@
+# Default github account: work
+Host github.com
+   HostName github.com
+   IdentityFile ~/.ssh/oanhnn_private_key
+   IdentitiesOnly yes
+   
+# Other github account: personal
+Host github-personal
+   HostName github.com
+   IdentityFile ~/.ssh/superman_private_key
+   IdentitiesOnly yes
